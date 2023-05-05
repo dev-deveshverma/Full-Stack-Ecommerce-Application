@@ -1,0 +1,85 @@
+.custom-font-size-1 {
+		font-size: 12.8px;
+		font-size: 0.8rem;
+}
+
+@media (max-width: 767px) {
+		.custom-mobile-remove-divider-left-border {
+				border-left: 0;
+		}
+}
+
+/* Header */
+#header .header-nav-main nav > ul > li > a {
+		font-size: 16px;
+}
+
+/* Parallax*/
+.custom-parallax-bg-pos-left {
+		background-position-x: 0% !important;
+}
+
+.custom-parallax-medium-padding {
+		padding: 128px 0 !important;
+}
+
+.custom-parallax-big-padding {
+		padding: 25vh 0 !important;
+}
+
+/* Overlay */
+.custom-overlay-opacity-95:before {
+		opacity: 0.95 !important;
+}
+
+/* Process */
+.process.custom-process .process-step:hover .process-step-circle .process-step-circle-content svg path, .process.custom-process .process-step:hover .process-step-circle .process-step-circle-content svg polyline, .process.custom-process .process-step:hover .process-step-circle .process-step-circle-content svg line {
+		stroke: #FFF !important;
+}
+
+.process.custom-process .process-step:hover .process-step-circle .process-step-circle-content svg[data-filename="people.svg"] path, .process.custom-process .process-step:hover .process-step-circle .process-step-circle-content svg[data-filename="people.svg"] polyline, .process.custom-process .process-step:hover .process-step-circle .process-step-circle-content svg[data-filename="people.svg"] line {
+		stroke: inherit !important;
+		fill: #FFF !important;
+}
+
+.process.custom-process .process-step .process-step-circle {
+		width: 115px;
+		height: 115px;
+}
+
+@media (min-width: 992px) {
+		.process .process-step:before {
+				background-color: #d6dde5;
+		}
+}
+
+/* Testimonial */
+.custom-testimonial-style-1.testimonial-style-2 .testimonial-author > img {
+		max-width: 120px;
+		max-height: none;
+		height: auto;
+		-o-object-fit: cover;
+			 object-fit: cover;
+}
+
+.custom-testimonial-style-1.testimonial-with-quotes blockquote:before {
+		top: -15px;
+}
+
+/* Progress Bars */
+.custom-progress-bars-style-1 .progress {
+		background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Footer */
+#footer p, #footer span, #footer li, #footer a:not(.btn):not(.no-footer-css) {
+		color: #888888;
+}
+
+#footer p:hover, #footer span:hover, #footer li:hover, #footer a:not(.btn):not(.no-footer-css):hover {
+		color: #212121;
+}
+
+#footer .footer-copyright p {
+		color: #888888;
+}

@@ -1,0 +1,68 @@
+/*
+Name: 			Examples - Spotlight Cursor Text
+Written by: 	Okler Themes - (http://www.okler.net)
+Theme Version:	9.9.0
+*/
+.spotlight-cursor-text {
+		position: relative;
+		height: 100vh;
+		width: 100vw;
+		background: #0088CC;
+		overflow: hidden;
+}
+
+.spotlight-cursor-text .shape {
+		will-change: transform;
+		position: absolute;
+		border-radius: 50%;
+}
+
+.spotlight-cursor-text .shape.shape-1 {
+		background: #1EA6EA;
+		width: 650px;
+		height: 650px;
+		margin: -325px 0 0 -325px;
+}
+
+.spotlight-cursor-text .shape.shape-2 {
+		background: #3CC4FF;
+		width: 440px;
+		height: 440px;
+		margin: -220px 0 0 -220px;
+}
+
+.spotlight-cursor-text .shape.shape-3 {
+		background: #5AE2FF;
+		width: 270px;
+		height: 270px;
+		margin: -135px 0 0 -135px;
+}
+
+.spotlight-cursor-text .content {
+		top: 0;
+		left: 0;
+		position: absolute;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+		width: 100vw;
+		background: #fff;
+		mix-blend-mode: screen;
+}
+
+.spotlight-cursor-text .title {
+		font-size: 150px;
+		line-height: 150px;
+		font-weight: bolder;
+		color: #000;
+		margin: 0;
+		text-align: center;
+}
+
+@media (max-width: 1200px) {
+		.spotlight-cursor-text .title {
+				font-size: 75px;
+				line-height: 75px;
+		}
+}

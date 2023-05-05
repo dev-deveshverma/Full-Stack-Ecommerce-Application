@@ -1,0 +1,437 @@
+/**
+ * Linea basic, 1.0.0
+ * Created by Dario Ferrando
+ * http://www.linea.io/
+ * CC0-1.0 License
+ */
+@charset "UTF-8";
+
+@font-face {
+	font-family: "linea-basic";
+	src: url('linea-basic.eot');
+	src: url('linea-basic.eot?#iefix') format('eot'),
+
+		url('linea-basic.woff') format('woff'),
+		url('linea-basic.ttf') format('truetype'),
+		url('linea-basic.svg#linea-basic') format('svg');
+}
+
+.lbi {
+	font-family: "linea-basic";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	speak: none;
+	text-decoration: none;
+	text-transform: none;
+}
+
+
+.lbi-accelerator:before {
+	content: "a";
+}
+.lbi-alarm:before {
+	content: "b";
+}
+.lbi-anchor:before {
+	content: "c";
+}
+.lbi-anticlockwise:before {
+	content: "d";
+}
+.lbi-archive:before {
+	content: "e";
+}
+.lbi-archive-full:before {
+	content: "f";
+}
+.lbi-ban:before {
+	content: "g";
+}
+.lbi-battery-charge:before {
+	content: "h";
+}
+.lbi-battery-empty:before {
+	content: "i";
+}
+.lbi-battery-full:before {
+	content: "j";
+}
+.lbi-battery-half:before {
+	content: "k";
+}
+.lbi-bolt:before {
+	content: "l";
+}
+.lbi-book:before {
+	content: "m";
+}
+.lbi-book-pen:before {
+	content: "n";
+}
+.lbi-book-pencil:before {
+	content: "o";
+}
+.lbi-bookmark:before {
+	content: "p";
+}
+.lbi-calculator:before {
+	content: "q";
+}
+.lbi-calendar:before {
+	content: "r";
+}
+.lbi-cards-diamonds:before {
+	content: "s";
+}
+.lbi-cards-hearts:before {
+	content: "t";
+}
+.lbi-case:before {
+	content: "u";
+}
+.lbi-chronometer:before {
+	content: "v";
+}
+.lbi-clessidre:before {
+	content: "w";
+}
+.lbi-clock:before {
+	content: "x";
+}
+.lbi-clockwise:before {
+	content: "y";
+}
+.lbi-cloud:before {
+	content: "z";
+}
+.lbi-clubs:before {
+	content: "A";
+}
+.lbi-compass:before {
+	content: "B";
+}
+.lbi-cup:before {
+	content: "C";
+}
+.lbi-diamonds:before {
+	content: "D";
+}
+.lbi-display:before {
+	content: "E";
+}
+.lbi-download:before {
+	content: "F";
+}
+.lbi-exclamation:before {
+	content: "G";
+}
+.lbi-eye:before {
+	content: "H";
+}
+.lbi-eye-closed:before {
+	content: "I";
+}
+.lbi-female:before {
+	content: "J";
+}
+.lbi-flag1:before {
+	content: "K";
+}
+.lbi-flag2:before {
+	content: "L";
+}
+.lbi-floppydisk:before {
+	content: "M";
+}
+.lbi-folder:before {
+	content: "N";
+}
+.lbi-folder-multiple:before {
+	content: "O";
+}
+.lbi-gear:before {
+	content: "P";
+}
+.lbi-geolocalize-01:before {
+	content: "Q";
+}
+.lbi-geolocalize-05:before {
+	content: "R";
+}
+.lbi-globe:before {
+	content: "S";
+}
+.lbi-gunsight:before {
+	content: "T";
+}
+.lbi-hammer:before {
+	content: "U";
+}
+.lbi-headset:before {
+	content: "V";
+}
+.lbi-heart:before {
+	content: "W";
+}
+.lbi-heart-broken:before {
+	content: "X";
+}
+.lbi-helm:before {
+	content: "Y";
+}
+.lbi-home:before {
+	content: "Z";
+}
+.lbi-info:before {
+	content: "0";
+}
+.lbi-ipod:before {
+	content: "1";
+}
+.lbi-joypad:before {
+	content: "2";
+}
+.lbi-key:before {
+	content: "3";
+}
+.lbi-keyboard:before {
+	content: "4";
+}
+.lbi-laptop:before {
+	content: "5";
+}
+.lbi-life-buoy:before {
+	content: "6";
+}
+.lbi-lightbulb:before {
+	content: "7";
+}
+.lbi-link:before {
+	content: "8";
+}
+.lbi-lock:before {
+	content: "9";
+}
+.lbi-lock-open:before {
+	content: "!";
+}
+.lbi-magic-mouse:before {
+	content: "\"";
+}
+.lbi-magnifier:before {
+	content: "#";
+}
+.lbi-magnifier-minus:before {
+	content: "$";
+}
+.lbi-magnifier-plus:before {
+	content: "%";
+}
+.lbi-mail:before {
+	content: "&";
+}
+.lbi-mail-multiple:before {
+	content: "'";
+}
+.lbi-mail-open:before {
+	content: "(";
+}
+.lbi-mail-open-text:before {
+	content: ")";
+}
+.lbi-male:before {
+	content: "*";
+}
+.lbi-map:before {
+	content: "+";
+}
+.lbi-message:before {
+	content: ",";
+}
+.lbi-message-multiple:before {
+	content: "-";
+}
+.lbi-message-txt:before {
+	content: ".";
+}
+.lbi-mixer2:before {
+	content: "/";
+}
+.lbi-mouse:before {
+	content: ":";
+}
+.lbi-notebook:before {
+	content: ";";
+}
+.lbi-notebook-pen:before {
+	content: "<";
+}
+.lbi-notebook-pencil:before {
+	content: "=";
+}
+.lbi-paperplane:before {
+	content: ">";
+}
+.lbi-pencil-ruler:before {
+	content: "?";
+}
+.lbi-pencil-ruler-pen:before {
+	content: "@";
+}
+.lbi-photo:before {
+	content: "[";
+}
+.lbi-picture:before {
+	content: "]";
+}
+.lbi-picture-multiple:before {
+	content: "^";
+}
+.lbi-pin1:before {
+	content: "_";
+}
+.lbi-pin2:before {
+	content: "`";
+}
+.lbi-postcard:before {
+	content: "{";
+}
+.lbi-postcard-multiple:before {
+	content: "|";
+}
+.lbi-printer:before {
+	content: "}";
+}
+.lbi-question:before {
+	content: "~";
+}
+.lbi-rss:before {
+	content: "\\";
+}
+.lbi-server:before {
+	content: "\e000";
+}
+.lbi-server2:before {
+	content: "\e001";
+}
+.lbi-server-cloud:before {
+	content: "\e002";
+}
+.lbi-server-download:before {
+	content: "\e003";
+}
+.lbi-server-upload:before {
+	content: "\e004";
+}
+.lbi-settings:before {
+	content: "\e005";
+}
+.lbi-share:before {
+	content: "\e006";
+}
+.lbi-sheet:before {
+	content: "\e007";
+}
+.lbi-sheet-multiple:before {
+	content: "\e008";
+}
+.lbi-sheet-pen:before {
+	content: "\e009";
+}
+.lbi-sheet-pencil:before {
+	content: "\e00a";
+}
+.lbi-sheet-txt:before {
+	content: "\e00b";
+}
+.lbi-signs:before {
+	content: "\e00c";
+}
+.lbi-smartphone:before {
+	content: "\e00d";
+}
+.lbi-spades:before {
+	content: "\e00e";
+}
+.lbi-spread:before {
+	content: "\e00f";
+}
+.lbi-spread-bookmark:before {
+	content: "\e010";
+}
+.lbi-spread-text:before {
+	content: "\e011";
+}
+.lbi-spread-text-bookmark:before {
+	content: "\e012";
+}
+.lbi-star:before {
+	content: "\e013";
+}
+.lbi-tablet:before {
+	content: "\e014";
+}
+.lbi-target:before {
+	content: "\e015";
+}
+.lbi-todo:before {
+	content: "\e016";
+}
+.lbi-todo-pen:before {
+	content: "\e017";
+}
+.lbi-todo-pencil:before {
+	content: "\e018";
+}
+.lbi-todo-txt:before {
+	content: "\e019";
+}
+.lbi-todolist-pen:before {
+	content: "\e01a";
+}
+.lbi-todolist-pencil:before {
+	content: "\e01b";
+}
+.lbi-trashcan:before {
+	content: "\e01c";
+}
+.lbi-trashcan-full:before {
+	content: "\e01d";
+}
+.lbi-trashcan-refresh:before {
+	content: "\e01e";
+}
+.lbi-trashcan-remove:before {
+	content: "\e01f";
+}
+.lbi-upload:before {
+	content: "\e020";
+}
+.lbi-usb:before {
+	content: "\e021";
+}
+.lbi-video:before {
+	content: "\e022";
+}
+.lbi-watch:before {
+	content: "\e023";
+}
+.lbi-webpage:before {
+	content: "\e024";
+}
+.lbi-webpage-img-txt:before {
+	content: "\e025";
+}
+.lbi-webpage-multiple:before {
+	content: "\e026";
+}
+.lbi-webpage-txt:before {
+	content: "\e027";
+}
+.lbi-world:before {
+	content: "\e028";
+}
+

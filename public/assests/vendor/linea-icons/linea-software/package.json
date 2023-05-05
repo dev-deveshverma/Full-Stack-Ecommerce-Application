@@ -1,0 +1,59 @@
+{
+  "_args": [
+    [
+      "@icon/linea-software@1.0.0-alpha.5",
+      "E:\\_OKLER\\Templates\\Porto\\HTML"
+    ]
+  ],
+  "_from": "@icon/linea-software@1.0.0-alpha.5",
+  "_id": "@icon/linea-software@1.0.0-alpha.5",
+  "_inBundle": false,
+  "_integrity": "sha512-DTjFO1UL4VsSyoEzJ1DrMnCe+z+wZXNLZqjiIjb5Y+KhIYsGs662RAfcd7laGv1oqKzHW2hszT+6X1aXubLe3A==",
+  "_location": "/@icon/linea-software",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@icon/linea-software@1.0.0-alpha.5",
+    "name": "@icon/linea-software",
+    "escapedName": "@icon%2flinea-software",
+    "scope": "@icon",
+    "rawSpec": "1.0.0-alpha.5",
+    "saveSpec": null,
+    "fetchSpec": "1.0.0-alpha.5"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@icon/linea-software/-/linea-software-1.0.0-alpha.5.tgz",
+  "_spec": "1.0.0-alpha.5",
+  "_where": "E:\\_OKLER\\Templates\\Porto\\HTML",
+  "author": {
+    "name": "Dario Ferrando"
+  },
+  "bugs": {
+    "url": "https://github.com/thecreation/standard-icons/issues"
+  },
+  "description": "Linea Iconset a free outline iconset  featuring 730+ Icons.",
+  "gitHead": "03bca77bca8c5dd936a375e9c556ef3e1a8d4074",
+  "homepage": "http://www.linea.io/",
+  "keywords": [
+    "icons",
+    "icon"
+  ],
+  "license": "CC0-1.0",
+  "name": "@icon/linea-software",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thecreation/standard-icons/tree/master/modules/linea-software"
+  },
+  "scripts": {
+    "import": "../../scripts/module/import --module=linea-software",
+    "optimize": "../../scripts/module/optimize",
+    "update": "ncu -u"
+  },
+  "version": "1.0.0-alpha.5"
+}

@@ -1,0 +1,205 @@
+h1, h2, h3, h4, h5, h6, span, a {
+		font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+		font-family: 'Montserrat', sans-serif;
+}
+
+.custom-font-primary {
+		font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.custom-font-secondary {
+		font-family: 'Montserrat', sans-serif !important;
+}
+
+.custom-border-color-1 {
+		border-color: #424549 !important;
+}
+
+.custom-font-size-1 {
+		font-size: 22.4px !important;
+		font-size: 1.4rem !important;
+}
+
+.custom-font-size-2 {
+		font-size: 12.8px !important;
+		font-size: 0.8rem !important;
+}
+
+/* Header */
+@media (min-width: 992px) {
+		#header .header-nav .header-nav-line nav > ul:not(:hover) li > a.active {
+				color: #FFF !important;
+		}
+		#header .header-nav-main nav > ul > li {
+				margin-right: 1.2rem;
+		}
+		#header .header-nav-main nav > ul > li > a {
+				color: #FFF !important;
+		}
+}
+
+/* Custom Porto SVG Logo (initial state for animation inside slide) */
+.custom-porto-svg-logo path {
+		fill-opacity: 0;
+		stroke-width: 1px;
+		stroke: #FFF;
+		stroke-dasharray: 630;
+		stroke-dashoffset: 630;
+		transition: ease stroke-dashoffset 5s, ease fill-opacity 1s 1.7s;
+}
+
+.custom-porto-svg-logo.active path {
+		stroke-dashoffset: 0;
+		fill-opacity: 1;
+}
+
+/* Custom Borders Divider */
+.custom-borders-divider-style-1 > div[class*="col"] {
+		border-width: 1px;
+		border-style: solid;
+		border-color: #212529;
+		border-top-width: 0;
+		border-right-width: 0;
+		border-left-width: 0;
+}
+
+@media (min-width: 576px) {
+		.custom-borders-divider-style-1 > div[class*="col"] {
+				border-right-width: 1px;
+		}
+		.custom-borders-divider-style-1 > div[class*="col"]:nth-child(1), .custom-borders-divider-style-1 > div[class*="col"]:nth-child(3) {
+				border-left-width: 1px;
+		}
+}
+
+@media (min-width: 992px) {
+		.custom-borders-divider-style-1 > div[class*="col"] {
+				border-left-width: 0;
+		}
+		.custom-borders-divider-style-1 > div[class*="col"]:nth-child(1) {
+				border-left-width: 1px;
+		}
+		.custom-borders-divider-style-1 > div[class*="col"]:nth-child(3) {
+				border-left-width: 0;
+		}
+}
+
+/* Custom Brands Colors */
+.custom-spotify-hover-effect {
+		transition: ease background 300ms;
+}
+
+.custom-spotify-hover-effect:hover {
+		background: #24cf5f;
+}
+
+.custom-itunes-hover-effect {
+		transition: ease background 300ms;
+}
+
+.custom-itunes-hover-effect:hover {
+		background: #d948dd;
+}
+
+.custom-amazon-hover-effect {
+		transition: ease background 300ms;
+}
+
+.custom-amazon-hover-effect:hover {
+		background: #ff9b00;
+}
+
+.custom-googlemusic-hover-effect {
+		transition: ease background 300ms;
+}
+
+.custom-googlemusic-hover-effect:hover {
+		background: #f4522b;
+}
+
+/* Custom Tour Items Hover Effect */
+.custom-tour-wrapper {
+		position: relative;
+		overflow: hidden;
+}
+
+.custom-tour-wrapper .custom-tour-stage {
+		transition: ease transform 300ms;
+}
+
+.custom-tour-wrapper .custom-tour-stage > .custom-tour-item + .custom-tour-item {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		transform: translate3d(0, 100%, 0);
+}
+
+.custom-tour-wrapper:not(.custom-tour-wrapper-static):hover > .custom-tour-stage {
+		transform: translate3d(0, -100%, 0);
+}
+
+/* Custom Thumb Info */
+.custom-thumb-info-style-1 .overlay:before {
+		transition: ease all 300ms 0ms !important;
+}
+
+.custom-thumb-info-style-1:hover .overlay:before {
+		opacity: 0.8 !important;
+		background: #0c0c0c !important;
+}
+
+.custom-thumb-info-style-1 .thumb-info-title {
+		padding: 28.8px 44.8px 36.8px 33.6px !important;
+		padding: 1.8rem 2.8rem 2.3rem 2.1rem !important;
+}
+
+/* Custom Card Style */
+.custom-card-style-1 .custom-card-img-top-wrapper .post-date {
+		position: absolute;
+		top: 35px;
+		left: 35px;
+		text-align: center;
+}
+
+.custom-card-style-1 .custom-card-img-top-wrapper .post-date .month {
+		display: block;
+		background: #CCC;
+		border-radius: 0 0 2px 2px;
+		color: #FFF;
+		font-size: 0.8em;
+		line-height: 1.8;
+		padding: 1px 10px;
+		text-transform: uppercase;
+		font-family: "Poppins", Arial, sans-serif;
+}
+
+.custom-card-style-1 .custom-card-img-top-wrapper .post-date .day {
+		background: #f7f7f7;
+		border-radius: 2px 2px 0 0;
+		color: #CCC;
+		display: block;
+		font-size: 18px;
+		font-weight: 900;
+		padding: 10px;
+		font-family: "Poppins", Arial, sans-serif;
+}
+
+/* Custom SVG Line Animation */
+@keyframes customSVGLineAnim {
+		from {
+				stroke-dasharray: 40;
+				stroke-dashoffset: 40;
+		}
+		to {
+				stroke-dasharray: 40;
+				stroke-dashoffset: 0;
+		}
+}
+
+.customSVGLineAnim {
+		animation-name: customSVGLineAnim;
+}

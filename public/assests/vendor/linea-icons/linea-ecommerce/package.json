@@ -1,0 +1,59 @@
+{
+  "_args": [
+    [
+      "@icon/linea-ecommerce@1.0.0-alpha.4",
+      "E:\\_OKLER\\Templates\\Porto\\HTML"
+    ]
+  ],
+  "_from": "@icon/linea-ecommerce@1.0.0-alpha.4",
+  "_id": "@icon/linea-ecommerce@1.0.0-alpha.4",
+  "_inBundle": false,
+  "_integrity": "sha512-q1jAOWpTPGXowNQ4B+8m1VEAUimSLBFeLYMVeD48dKaSUPPXr/Qcx4DO7MB0+dUidaESA/dzyFHOmSfbDAd2ew==",
+  "_location": "/@icon/linea-ecommerce",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@icon/linea-ecommerce@1.0.0-alpha.4",
+    "name": "@icon/linea-ecommerce",
+    "escapedName": "@icon%2flinea-ecommerce",
+    "scope": "@icon",
+    "rawSpec": "1.0.0-alpha.4",
+    "saveSpec": null,
+    "fetchSpec": "1.0.0-alpha.4"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@icon/linea-ecommerce/-/linea-ecommerce-1.0.0-alpha.4.tgz",
+  "_spec": "1.0.0-alpha.4",
+  "_where": "E:\\_OKLER\\Templates\\Porto\\HTML",
+  "author": {
+    "name": "Dario Ferrando"
+  },
+  "bugs": {
+    "url": "https://github.com/thecreation/standard-icons/issues"
+  },
+  "description": "Linea Iconset a free outline iconset  featuring 730+ Icons.",
+  "gitHead": "03bca77bca8c5dd936a375e9c556ef3e1a8d4074",
+  "homepage": "http://www.linea.io/",
+  "keywords": [
+    "icons",
+    "icon"
+  ],
+  "license": "CC0-1.0",
+  "name": "@icon/linea-ecommerce",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thecreation/standard-icons/tree/master/modules/linea-ecommerce"
+  },
+  "scripts": {
+    "import": "../../scripts/module/import --module=linea-ecommerce",
+    "optimize": "../../scripts/module/optimize",
+    "update": "ncu -u"
+  },
+  "version": "1.0.0-alpha.4"
+}

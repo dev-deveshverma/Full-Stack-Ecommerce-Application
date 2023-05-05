@@ -1,0 +1,122 @@
+/**
+ * Linea music, 1.0.0
+ * Created by Dario Ferrando
+ * http://www.linea.io/
+ * CC0-1.0 License
+ */
+@charset "UTF-8";
+
+@font-face {
+	font-family: "linea-music";
+	src: url('linea-music.eot');
+	src: url('linea-music.eot?#iefix') format('eot'),
+
+		url('linea-music.woff') format('woff'),
+		url('linea-music.ttf') format('truetype'),
+		url('linea-music.svg#linea-music') format('svg');
+}
+
+.lmi {
+	font-family: "linea-music";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	speak: none;
+	text-decoration: none;
+	text-transform: none;
+}
+
+
+.lmi-beginning-button:before {
+	content: "a";
+}
+.lmi-bell:before {
+	content: "b";
+}
+.lmi-cd:before {
+	content: "c";
+}
+.lmi-diapason:before {
+	content: "d";
+}
+.lmi-eject-button:before {
+	content: "e";
+}
+.lmi-end-button:before {
+	content: "f";
+}
+.lmi-fastforward-button:before {
+	content: "g";
+}
+.lmi-headphones:before {
+	content: "h";
+}
+.lmi-ipod:before {
+	content: "i";
+}
+.lmi-loudspeaker:before {
+	content: "j";
+}
+.lmi-microphone:before {
+	content: "k";
+}
+.lmi-microphone-old:before {
+	content: "l";
+}
+.lmi-mixer:before {
+	content: "m";
+}
+.lmi-mute:before {
+	content: "n";
+}
+.lmi-note-multiple:before {
+	content: "o";
+}
+.lmi-note-single:before {
+	content: "p";
+}
+.lmi-pause-button:before {
+	content: "q";
+}
+.lmi-play-button:before {
+	content: "r";
+}
+.lmi-playlist:before {
+	content: "s";
+}
+.lmi-radio-ghettoblaster:before {
+	content: "t";
+}
+.lmi-radio-portable:before {
+	content: "u";
+}
+.lmi-record:before {
+	content: "v";
+}
+.lmi-recordplayer:before {
+	content: "w";
+}
+.lmi-repeat-button:before {
+	content: "x";
+}
+.lmi-rewind-button:before {
+	content: "y";
+}
+.lmi-shuffle-button:before {
+	content: "z";
+}
+.lmi-stop-button:before {
+	content: "A";
+}
+.lmi-tape:before {
+	content: "B";
+}
+.lmi-volume-down:before {
+	content: "C";
+}
+.lmi-volume-up:before {
+	content: "D";
+}
+

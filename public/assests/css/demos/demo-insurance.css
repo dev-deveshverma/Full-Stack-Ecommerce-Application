@@ -1,0 +1,292 @@
+@media (max-width: 991px) {
+		.background-image-wrapper {
+				background-position: 0% !important;
+				background-repeat: no-repeat;
+		}
+}
+
+.custom-big-text-1 {
+		font-size: 59.2px;
+		font-size: 3.7rem;
+		letter-spacing: 0.8px;
+		position: relative;
+		left: 0;
+}
+
+@media (min-width: 576px) {
+		.custom-big-text-1 {
+				font-size: 5.5rem;
+		}
+}
+
+@media (min-width: 768px) {
+		.custom-big-text-1 {
+				font-size: 7.3rem;
+		}
+}
+
+@media (min-width: 992px) {
+		.custom-big-text-1 {
+				font-size: 9.7rem;
+				left: -214px;
+		}
+}
+
+.custom-container-background {
+		position: relative;
+		margin-top: -100px;
+}
+
+.custom-container-background:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 50%;
+		transform: translate3d(-50%, 0, 0);
+		width: 125%;
+		height: 300px;
+		background: #FFF;
+}
+
+.custom-form-control-group-style-1 .form-control {
+		height: 60px;
+		line-height: 1;
+		padding: 10px 30px;
+		border-width: 2px;
+		border-color: #CCC;
+}
+
+.custom-form-control-group-style-1 .form-control:first-child {
+		background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='black' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/></svg>");
+		border-radius: 35px 0 0 35px;
+		border-right: 0;
+		background-repeat: no-repeat;
+		background-size: 11px;
+		background-position: 92% center;
+}
+
+.custom-form-control-group-style-1 .form-control:last-child {
+		border-radius: 0 35px 35px 0;
+}
+
+.custom-divider {
+		height: 60px;
+		width: 0.5px;
+		border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.custom-view-more svg {
+		transition: ease transform 300ms;
+}
+
+.custom-view-more:hover svg {
+		transform: translate3d(7px, 0, 0);
+}
+
+.custom-z-index-1 {
+		z-index: 10;
+}
+
+.custom-svg-position-1 {
+		position: absolute;
+		top: -190px;
+		left: -330px;
+}
+
+.custom-svg-position-2 {
+		position: absolute;
+		top: 210px;
+		right: -47px;
+		opacity: 0.5;
+}
+
+.custom-svg-position-3 {
+		position: absolute;
+		left: -30px;
+		top: -40px;
+}
+
+.custom-svg-position-4 {
+		position: absolute;
+		top: -430px;
+		right: -100px;
+}
+
+.page-header-svg-container {
+		transform: rotate(280deg);
+		position: relative;
+		z-index: 2;
+		left: 10%;
+}
+
+.custom-svg-position-5 {
+		position: absolute;
+		top: 0;
+		right: -48%;
+		left: 33%;
+}
+
+.breadcrumb > li {
+		text-transform: none;
+		font-weight: 600;
+}
+
+@keyframes customLines1anim {
+		from {
+				stroke-dasharray: 1600;
+				stroke-dashoffset: 1600;
+		}
+		to {
+				stroke-dasharray: 1600;
+				stroke-dashoffset: 0;
+		}
+}
+
+.customLines1anim {
+		animation-name: customLines1anim;
+}
+
+/*
+* Header
+*/
+#header .header-nav-features:before, #header .header-nav-features:after {
+		background: rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 992px) {
+		#header .header-nav-main nav > ul > li > a {
+				font-size: 14px;
+				padding: 0 1.5rem !important;
+		}
+		#header .header-nav-main nav > ul > li:first-child > a {
+				padding-left: 0 !important;
+		}
+		#header .header-nav-main nav > ul > li.dropdown .dropdown-menu {
+				border-radius: 4px !important;
+				margin-left: 5px !important;
+		}
+}
+
+#header .header-nav-features-search .header-nav-features-dropdown {
+		margin-right: 0;
+}
+
+/*
+* Accordion
+*/
+.custom-accordion-style-1 > .card {
+		border: 1px solid transparent !important;
+		transition: ease border-color 300ms;
+}
+
+.custom-accordion-style-1 > .card .card-header a {
+		position: relative;
+		padding: 23px 30px;
+		background-color: #FFF;
+		transition: ease background-color 300ms, ease color 300ms;
+}
+
+.custom-accordion-style-1 > .card .card-header a:after {
+		content: '+';
+		position: absolute;
+		top: 50%;
+		right: 25px;
+		font-size: inherit;
+		font-weight: inherit;
+		transform: translate3d(0, -50%, 0) rotate(45deg);
+		transform-origin: 50% 50%;
+		transition: ease transform 300ms;
+}
+
+.custom-accordion-style-1 > .card .card-header a.collapsed:after {
+		transform: translate3d(0, -50%, 0) rotate(0deg);
+}
+
+.custom-accordion-style-1 > .card .accordion-toggle {
+		background-color: #f4f4f4 !important;
+}
+
+.custom-accordion-style-1 > .card + .card {
+		margin-top: 20px;
+}
+
+/*
+* Testimonial
+*/
+.custom-testimonial-style-1 blockquote {
+		position: relative;
+		border: 0;
+}
+
+.custom-testimonial-style-1 blockquote:before {
+		content: "\f10d";
+		font-family: "Font Awesome 6 Free";
+		font-weight: 900;
+		font-size: 18px;
+		color: #212121;
+		position: absolute;
+		top: 0;
+		left: 0;
+}
+
+.custom-testimonial-style-1 blockquote p {
+		font-family: 'Playfair Display', sans-serif;
+		font-style: italic;
+}
+
+/*
+* Newsletter
+*/
+.custom-form-control-newsletter-field {
+		border-radius: 35px 0 0 35px;
+}
+
+.custom-form-control-newsletter-btn {
+		border-radius: 0 35px 35px 0;
+}
+
+/*
+* Contact Form
+*/
+.custom-form-style-1 .form-control {
+		height: calc(1.8em + 1.85rem + 2px);
+		padding: 15.6px 20px;
+		padding: 0.975rem 1.25rem;
+		background: transparent;
+		border-width: 2px;
+		border-color: #CCC;
+		border-radius: 35px;
+		line-height: 1.5 !important;
+}
+
+.custom-form-style-1 .form-control:focus {
+		border-color: #CCC;
+}
+
+.custom-form-style-1 .form-control::-webkit-input-placeholder {
+		color: #a9a9a9;
+}
+
+.custom-form-style-1 .form-control::-moz-placeholder {
+		color: #a9a9a9;
+}
+
+.custom-form-style-1 .form-control:-ms-input-placeholder {
+		color: #a9a9a9;
+}
+
+.custom-form-style-1 select {
+		color: #495057;
+}
+
+.custom-form-style-1 select option {
+		color: #a9a9a9;
+}
+
+.custom-form-style-1 select option[selected] {
+		color: #a9a9a9;
+}
+
+.custom-form-style-1 textarea.form-control {
+		height: auto;
+}

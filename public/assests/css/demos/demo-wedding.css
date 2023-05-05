@@ -1,0 +1,341 @@
+.custom-font-1 {
+		font-family: "Tangerine", cursive;
+		font-weight: bold;
+}
+
+.custom-font-size-1 {
+		font-size: 70px !important;
+}
+
+.custom-font-size-2 {
+		font-size: 50px !important;
+}
+
+.custom-font-size-3 {
+		font-size: 40px !important;
+}
+
+.custom-font-size-4 {
+		font-size: 0.6em !important;
+}
+
+.custom-logo {
+		font-family: "Tangerine", cursive;
+		font-size: 50px;
+		font-weight: 700;
+		display: block;
+		padding: 10px 0;
+}
+
+@media (min-width: 992px) {
+		#header .header-nav-bar .header-nav {
+				min-height: 80px;
+		}
+		#header .header-nav.header-nav-line.header-nav-bottom-line nav > ul > li > a {
+				letter-spacing: 3px;
+				font-weight: 400;
+				padding: 0 0.9rem !important;
+				margin: 0 0.9rem !important;
+		}
+		#header .header-nav.header-nav-line.header-nav-bottom-line nav > ul > li > a:before {
+				height: 1px;
+				transform: translateX(-2px);
+		}
+		#header .header-nav.header-nav-line.header-nav-bottom-line nav > ul > li:hover > a:before {
+				height: 1px;
+				transform: translateX(-2px);
+		}
+}
+
+@media (max-width: 991px) {
+		#header .header-logo {
+				top: 26px;
+		}
+		#header .header-btn-collapse-nav {
+				top: -23px;
+		}
+}
+
+.slider .slotholder:after {
+		width: 100%;
+		height: 100%;
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		pointer-events: none;
+		opacity: 0.4;
+		background: #333;
+		z-index: 1000;
+}
+
+.tp-caption-custom-1 {
+		font-family: "Tangerine", cursive;
+		color: transparent;
+		-webkit-text-stroke: 1px #FFF;
+		text-stroke: 1px #FFF;
+		opacity: 0.3 !important;
+}
+
+.tp-caption-custom-2 {
+		font-family: "Tangerine", cursive;
+		color: #FFF;
+}
+
+.tp-caption-custom-3-el-1 {
+		color: #333;
+		display: inline-block;
+		letter-spacing: 2.5px;
+		padding: 15px 80px;
+		background: url(../../img/demos/wedding/backgrounds/bg-1.svg) no-repeat 0 0;
+		background-size: cover;
+}
+
+.custom-bg-1 {
+		position: absolute;
+		width: 1200px;
+		left: -800px;
+		top: -285px;
+		transform: rotate(45deg);
+}
+
+.custom-bg-2 {
+		position: relative;
+		background: url(../../img/demos/wedding/backgrounds/bg-2.svg) no-repeat 0 0;
+		background-size: 100% 100%;
+}
+
+.custom-bg-3 {
+		position: absolute;
+		width: 1200px;
+		right: -45%;
+		transform: rotate(40deg);
+}
+
+.custom-bg-4 {
+		position: absolute;
+		width: 1200px;
+}
+
+.custom-countdown-1 .days span, .custom-countdown-1 .hours span, .custom-countdown-1 .minutes span, .custom-countdown-1 .seconds span {
+		font-weight: bold;
+}
+
+.custom-text-1 {
+		font-family: "Tangerine", cursive;
+		color: transparent;
+		-webkit-text-stroke: 1px #f4f0ed;
+		text-stroke: 1px #FFF;
+		font-size: 23vw;
+		white-space: nowrap;
+		position: absolute;
+		bottom: 3%;
+}
+
+.custom-thumb-info-style-1:hover .thumb-info-wrapper:after {
+		opacity: 0.5 !important;
+}
+
+.mfp-wrap.wedding-portfolio-gallery {
+		opacity: 0;
+		transition: ease opacity 300ms;
+}
+
+#ourHistoryLightbox {
+		position: absolute;
+		width: 100vw;
+		height: 100vh;
+		top: 50%;
+		left: 50%;
+		transform: translate3d(-50%, -50%, 0);
+}
+
+#ourHistoryLightbox .mfp-close {
+		background-color: #60635c;
+		color: #FFF;
+		top: 0;
+		right: 0;
+		opacity: 1;
+}
+
+#ourHistoryLightbox .mfp-close:hover {
+		opacity: 0.7;
+}
+
+#ourHistoryLightbox .thumb-gallery {
+		position: absolute;
+		width: 100vw;
+		height: 95vh;
+		top: 50%;
+		left: 50%;
+		transform: translate3d(-50%, -50%, 0);
+}
+
+#ourHistoryLightbox .owl-carousel .owl-item > div {
+		position: relative;
+		height: 95vh;
+}
+
+#ourHistoryLightbox .owl-carousel .owl-item > div .img-thumbnail {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 100%;
+		padding: 0;
+		border: none;
+		background: transparent;
+		text-align: center;
+		transform: translate3d(-50%, -50%, 0);
+}
+
+#ourHistoryLightbox .owl-carousel .owl-item img {
+		display: inline-block !important;
+		width: auto;
+		max-width: 95vw;
+		max-height: 90vh;
+		box-shadow: 0px 0px 40px -10px #000;
+}
+
+#ourHistoryLightbox .owl-carousel .owl-nav button.owl-prev,
+#ourHistoryLightbox .owl-carousel .owl-nav button.owl-next {
+		border: 0 none;
+		border-radius: 0;
+		color: #FFF;
+		height: 80px;
+		line-height: 68px;
+		margin-top: -20px;
+		transition: all 0.3s ease;
+}
+
+#ourHistoryLightbox .owl-carousel .owl-nav button.owl-prev:before,
+#ourHistoryLightbox .owl-carousel .owl-nav button.owl-next:before {
+		font-family: simple-line-icons;
+		content: "\e605";
+		font-size: 11px;
+}
+
+#ourHistoryLightbox .owl-carousel .owl-nav button.owl-next::before {
+		font-family: simple-line-icons;
+		content: "\e606";
+}
+
+#ourHistoryLightbox #thumbGalleryThumbs {
+		width: 98%;
+		height: 13vh;
+		position: fixed;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+}
+
+#ourHistoryLightbox #thumbGalleryThumbs:hover .owl-stage-outer, #ourHistoryLightbox #thumbGalleryThumbs.show-thumbs .owl-stage-outer {
+		opacity: 1;
+		transform: translateY(0);
+}
+
+#ourHistoryLightbox #thumbGalleryThumbs.boxed-thumbs:hover .owl-stage-outer {
+		opacity: 1;
+		transform: translateY(0);
+}
+
+#ourHistoryLightbox #thumbGalleryThumbs.boxed-thumbs .owl-item > div {
+		height: 20vh;
+}
+
+#ourHistoryLightbox #thumbGalleryThumbs.boxed-thumbs .owl-item > div .img-thumbnail {
+		height: 5.3vw;
+		overflow: hidden;
+		border: none;
+		box-shadow: none;
+}
+
+#ourHistoryLightbox #thumbGalleryThumbs.boxed-thumbs .owl-item img {
+		width: auto;
+		height: 100%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate3d(-50%, -50%, 0);
+}
+
+#ourHistoryLightbox #thumbGalleryThumbs.full-proportion-thumbs:hover .owl-stage-outer {
+		opacity: 1;
+		transform: translateY(-32%);
+}
+
+#ourHistoryLightbox #thumbGalleryThumbs.full-proportion-thumbs .owl-item.active-thumb {
+		opacity: 0.5;
+}
+
+#ourHistoryLightbox #thumbGalleryThumbs.full-proportion-thumbs .owl-item > div {
+		height: 20vh;
+}
+
+#ourHistoryLightbox #thumbGalleryThumbs.full-proportion-thumbs .owl-item > div .img-thumbnail {
+		border: none;
+		box-shadow: none;
+		overflow: visible;
+}
+
+#ourHistoryLightbox #thumbGalleryThumbs.full-proportion-thumbs .owl-item img {
+		max-height: 20vh;
+		box-shadow: none;
+		height: auto;
+		width: 100%;
+}
+
+#ourHistoryLightbox #thumbGalleryThumbs .owl-stage-outer {
+		opacity: 0;
+		transform: translateY(100%);
+		transition: ease all 300ms;
+}
+
+#ourHistoryLightbox #thumbGalleryThumbs .owl-stage {
+		margin: 0 auto;
+}
+
+#ourHistoryLightbox #thumbGalleryThumbs .owl-item.active-thumb {
+		opacity: 0.5;
+}
+
+#ourHistoryLightbox #thumbGalleryThumbs .owl-item > div {
+		height: 20vh;
+}
+
+#ourHistoryLightbox #thumbGalleryThumbs .owl-item > div .img-thumbnail {
+		height: 5.3vw;
+		box-shadow: 0px 0px 50px -10px #000;
+		overflow: hidden;
+}
+
+#ourHistoryLightbox #thumbGalleryThumbs .owl-item img {
+		width: 100%;
+		height: auto;
+		max-height: none;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate3d(-50%, -50%, 0);
+}
+
+@media (max-width: 991px) {
+		#ourHistoryLightbox .thumb-gallery {
+				transform: translate3d(-50%, -50%, 0);
+		}
+		#ourHistoryLightbox .owl-carousel .owl-item img {
+				box-shadow: 0px 0px 20px #000;
+				max-width: 89vw;
+		}
+		#ourHistoryLightbox #thumbGalleryThumbs .owl-item img {
+				box-shadow: none;
+		}
+		#ourHistoryLightbox #thumbGalleryThumbs .owl-stage-outer {
+				display: none;
+		}
+}
+
+@media (max-width: 767px) {
+		#ourHistoryLightbox .owl-carousel .owl-item img {
+				max-width: 80vw;
+		}
+}

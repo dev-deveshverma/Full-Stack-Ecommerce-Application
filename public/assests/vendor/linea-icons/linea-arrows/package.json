@@ -1,0 +1,59 @@
+{
+  "_args": [
+    [
+      "@icon/linea-arrows@1.0.0-alpha.4",
+      "E:\\_OKLER\\Templates\\Porto\\HTML"
+    ]
+  ],
+  "_from": "@icon/linea-arrows@1.0.0-alpha.4",
+  "_id": "@icon/linea-arrows@1.0.0-alpha.4",
+  "_inBundle": false,
+  "_integrity": "sha512-qdPNyz7lvU7Cg/GlQ6bxuX5vQo18tYnWIPzOAIwpgheXT/iHKElOurlVso7P7V+HqBmxBaVDGj8+KjfOz0wYjg==",
+  "_location": "/@icon/linea-arrows",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@icon/linea-arrows@1.0.0-alpha.4",
+    "name": "@icon/linea-arrows",
+    "escapedName": "@icon%2flinea-arrows",
+    "scope": "@icon",
+    "rawSpec": "1.0.0-alpha.4",
+    "saveSpec": null,
+    "fetchSpec": "1.0.0-alpha.4"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@icon/linea-arrows/-/linea-arrows-1.0.0-alpha.4.tgz",
+  "_spec": "1.0.0-alpha.4",
+  "_where": "E:\\_OKLER\\Templates\\Porto\\HTML",
+  "author": {
+    "name": "Dario Ferrando"
+  },
+  "bugs": {
+    "url": "https://github.com/thecreation/standard-icons/issues"
+  },
+  "description": "Linea Iconset a free outline iconset  featuring 730+ Icons.",
+  "gitHead": "03bca77bca8c5dd936a375e9c556ef3e1a8d4074",
+  "homepage": "http://www.linea.io/",
+  "keywords": [
+    "icons",
+    "icon"
+  ],
+  "license": "CC0-1.0",
+  "name": "@icon/linea-arrows",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thecreation/standard-icons/tree/master/modules/linea-arrows"
+  },
+  "scripts": {
+    "import": "../../scripts/module/import --module=linea-arrows",
+    "optimize": "../../scripts/module/optimize",
+    "update": "ncu -u"
+  },
+  "version": "1.0.0-alpha.4"
+}

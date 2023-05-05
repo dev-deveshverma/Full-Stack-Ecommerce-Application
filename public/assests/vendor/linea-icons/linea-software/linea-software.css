@@ -1,0 +1,332 @@
+/**
+ * Linea software, 1.0.0
+ * Created by Dario Ferrando
+ * http://www.linea.io/
+ * CC0-1.0 License
+ */
+@charset "UTF-8";
+
+@font-face {
+	font-family: "linea-software";
+	src: url('linea-software.eot');
+	src: url('linea-software.eot?#iefix') format('eot'),
+
+		url('linea-software.woff') format('woff'),
+		url('linea-software.ttf') format('truetype'),
+		url('linea-software.svg#linea-software') format('svg');
+}
+
+.lsi {
+	font-family: "linea-software";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	speak: none;
+	text-decoration: none;
+	text-transform: none;
+}
+
+
+.lsi-add-vectorpoint:before {
+	content: "a";
+}
+.lsi-box-oval:before {
+	content: "b";
+}
+.lsi-box-polygon:before {
+	content: "c";
+}
+.lsi-box-rectangle:before {
+	content: "d";
+}
+.lsi-box-roundedrectangle:before {
+	content: "e";
+}
+.lsi-character:before {
+	content: "f";
+}
+.lsi-crop:before {
+	content: "g";
+}
+.lsi-eyedropper:before {
+	content: "h";
+}
+.lsi-font-allcaps:before {
+	content: "i";
+}
+.lsi-font-baseline-shift:before {
+	content: "j";
+}
+.lsi-font-horizontal-scale:before {
+	content: "k";
+}
+.lsi-font-kerning:before {
+	content: "l";
+}
+.lsi-font-leading:before {
+	content: "m";
+}
+.lsi-font-size:before {
+	content: "n";
+}
+.lsi-font-smallcapital:before {
+	content: "o";
+}
+.lsi-font-smallcaps:before {
+	content: "p";
+}
+.lsi-font-strikethrough:before {
+	content: "q";
+}
+.lsi-font-tracking:before {
+	content: "r";
+}
+.lsi-font-underline:before {
+	content: "s";
+}
+.lsi-font-vertical-scale:before {
+	content: "t";
+}
+.lsi-horizontal-align-center:before {
+	content: "u";
+}
+.lsi-horizontal-align-left:before {
+	content: "v";
+}
+.lsi-horizontal-align-right:before {
+	content: "w";
+}
+.lsi-horizontal-distribute-center:before {
+	content: "x";
+}
+.lsi-horizontal-distribute-left:before {
+	content: "y";
+}
+.lsi-horizontal-distribute-right:before {
+	content: "z";
+}
+.lsi-indent-firstline:before {
+	content: "A";
+}
+.lsi-indent-left:before {
+	content: "B";
+}
+.lsi-indent-right:before {
+	content: "C";
+}
+.lsi-lasso:before {
+	content: "D";
+}
+.lsi-layers1:before {
+	content: "E";
+}
+.lsi-layers2:before {
+	content: "F";
+}
+.lsi-layout:before {
+	content: "G";
+}
+.lsi-layout-2columns:before {
+	content: "H";
+}
+.lsi-layout-3columns:before {
+	content: "I";
+}
+.lsi-layout-4boxes:before {
+	content: "J";
+}
+.lsi-layout-4columns:before {
+	content: "K";
+}
+.lsi-layout-4lines:before {
+	content: "L";
+}
+.lsi-layout-8boxes:before {
+	content: "M";
+}
+.lsi-layout-header:before {
+	content: "N";
+}
+.lsi-layout-header-2columns:before {
+	content: "O";
+}
+.lsi-layout-header-3columns:before {
+	content: "P";
+}
+.lsi-layout-header-4boxes:before {
+	content: "Q";
+}
+.lsi-layout-header-4columns:before {
+	content: "R";
+}
+.lsi-layout-header-complex:before {
+	content: "S";
+}
+.lsi-layout-header-complex2:before {
+	content: "T";
+}
+.lsi-layout-header-complex3:before {
+	content: "U";
+}
+.lsi-layout-header-complex4:before {
+	content: "V";
+}
+.lsi-layout-header-sideleft:before {
+	content: "W";
+}
+.lsi-layout-header-sideright:before {
+	content: "X";
+}
+.lsi-layout-sidebar-left:before {
+	content: "Y";
+}
+.lsi-layout-sidebar-right:before {
+	content: "Z";
+}
+.lsi-magnete:before {
+	content: "0";
+}
+.lsi-pages:before {
+	content: "1";
+}
+.lsi-paintbrush:before {
+	content: "2";
+}
+.lsi-paintbucket:before {
+	content: "3";
+}
+.lsi-paintroller:before {
+	content: "4";
+}
+.lsi-paragraph:before {
+	content: "5";
+}
+.lsi-paragraph-align-left:before {
+	content: "6";
+}
+.lsi-paragraph-align-right:before {
+	content: "7";
+}
+.lsi-paragraph-center:before {
+	content: "8";
+}
+.lsi-paragraph-justify-all:before {
+	content: "9";
+}
+.lsi-paragraph-justify-center:before {
+	content: "!";
+}
+.lsi-paragraph-justify-left:before {
+	content: "\"";
+}
+.lsi-paragraph-justify-right:before {
+	content: "#";
+}
+.lsi-paragraph-space-after:before {
+	content: "$";
+}
+.lsi-paragraph-space-before:before {
+	content: "%";
+}
+.lsi-pathfinder-exclude:before {
+	content: "&";
+}
+.lsi-pathfinder-intersect:before {
+	content: "'";
+}
+.lsi-pathfinder-subtract:before {
+	content: "(";
+}
+.lsi-pathfinder-unite:before {
+	content: ")";
+}
+.lsi-pen:before {
+	content: "*";
+}
+.lsi-pen-add:before {
+	content: "+";
+}
+.lsi-pen-remove:before {
+	content: ",";
+}
+.lsi-pencil:before {
+	content: "-";
+}
+.lsi-polygonallasso:before {
+	content: ".";
+}
+.lsi-reflect-horizontal:before {
+	content: "/";
+}
+.lsi-reflect-vertical:before {
+	content: ":";
+}
+.lsi-remove-vectorpoint:before {
+	content: ";";
+}
+.lsi-scale-expand:before {
+	content: "<";
+}
+.lsi-scale-reduce:before {
+	content: "=";
+}
+.lsi-selection-oval:before {
+	content: ">";
+}
+.lsi-selection-polygon:before {
+	content: "?";
+}
+.lsi-selection-rectangle:before {
+	content: "@";
+}
+.lsi-selection-roundedrectangle:before {
+	content: "[";
+}
+.lsi-shape-oval:before {
+	content: "]";
+}
+.lsi-shape-polygon:before {
+	content: "^";
+}
+.lsi-shape-rectangle:before {
+	content: "_";
+}
+.lsi-shape-roundedrectangle:before {
+	content: "`";
+}
+.lsi-slice:before {
+	content: "{";
+}
+.lsi-transform-bezier:before {
+	content: "|";
+}
+.lsi-vector-box:before {
+	content: "}";
+}
+.lsi-vector-composite:before {
+	content: "~";
+}
+.lsi-vector-line:before {
+	content: "\\";
+}
+.lsi-vertical-align-bottom:before {
+	content: "\e000";
+}
+.lsi-vertical-align-center:before {
+	content: "\e001";
+}
+.lsi-vertical-align-top:before {
+	content: "\e002";
+}
+.lsi-vertical-distribute-bottom:before {
+	content: "\e003";
+}
+.lsi-vertical-distribute-center:before {
+	content: "\e004";
+}
+.lsi-vertical-distribute-top:before {
+	content: "\e005";
+}
+

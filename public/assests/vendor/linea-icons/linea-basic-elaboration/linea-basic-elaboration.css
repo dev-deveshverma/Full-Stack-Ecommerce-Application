@@ -1,0 +1,467 @@
+/**
+ * Linea Basic Elaboration, 1.0.0
+ * Created by Dario Ferrando
+ * http://www.linea.io/
+ * CC0-1.0 License
+ */
+@charset "UTF-8";
+
+@font-face {
+	font-family: "linea-basic-elaboration";
+	src: url('linea-basic-elaboration.eot');
+	src: url('linea-basic-elaboration.eot?#iefix') format('eot'),
+
+		url('linea-basic-elaboration.woff') format('woff'),
+		url('linea-basic-elaboration.ttf') format('truetype'),
+		url('linea-basic-elaboration.svg#linea-basic-elaboration') format('svg');
+}
+
+.lbei {
+	font-family: "linea-basic-elaboration";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	speak: none;
+	text-decoration: none;
+	text-transform: none;
+}
+
+
+.lbei-bookmark-checck:before {
+	content: "a";
+}
+.lbei-bookmark-minus:before {
+	content: "b";
+}
+.lbei-bookmark-plus:before {
+	content: "c";
+}
+.lbei-bookmark-remove:before {
+	content: "d";
+}
+.lbei-briefcase-check:before {
+	content: "e";
+}
+.lbei-briefcase-download:before {
+	content: "f";
+}
+.lbei-briefcase-flagged:before {
+	content: "g";
+}
+.lbei-briefcase-minus:before {
+	content: "h";
+}
+.lbei-briefcase-plus:before {
+	content: "i";
+}
+.lbei-briefcase-refresh:before {
+	content: "j";
+}
+.lbei-briefcase-remove:before {
+	content: "k";
+}
+.lbei-briefcase-search:before {
+	content: "l";
+}
+.lbei-briefcase-star:before {
+	content: "m";
+}
+.lbei-briefcase-upload:before {
+	content: "n";
+}
+.lbei-browser-check:before {
+	content: "o";
+}
+.lbei-browser-download:before {
+	content: "p";
+}
+.lbei-browser-minus:before {
+	content: "q";
+}
+.lbei-browser-plus:before {
+	content: "r";
+}
+.lbei-browser-refresh:before {
+	content: "s";
+}
+.lbei-browser-remove:before {
+	content: "t";
+}
+.lbei-browser-search:before {
+	content: "u";
+}
+.lbei-browser-star:before {
+	content: "v";
+}
+.lbei-browser-upload:before {
+	content: "w";
+}
+.lbei-calendar-check:before {
+	content: "x";
+}
+.lbei-calendar-cloud:before {
+	content: "y";
+}
+.lbei-calendar-download:before {
+	content: "z";
+}
+.lbei-calendar-empty:before {
+	content: "A";
+}
+.lbei-calendar-flagged:before {
+	content: "B";
+}
+.lbei-calendar-heart:before {
+	content: "C";
+}
+.lbei-calendar-minus:before {
+	content: "D";
+}
+.lbei-calendar-next:before {
+	content: "E";
+}
+.lbei-calendar-noaccess:before {
+	content: "F";
+}
+.lbei-calendar-pencil:before {
+	content: "G";
+}
+.lbei-calendar-plus:before {
+	content: "H";
+}
+.lbei-calendar-previous:before {
+	content: "I";
+}
+.lbei-calendar-refresh:before {
+	content: "J";
+}
+.lbei-calendar-remove:before {
+	content: "K";
+}
+.lbei-calendar-search:before {
+	content: "L";
+}
+.lbei-calendar-star:before {
+	content: "M";
+}
+.lbei-calendar-upload:before {
+	content: "N";
+}
+.lbei-cloud-check:before {
+	content: "O";
+}
+.lbei-cloud-download:before {
+	content: "P";
+}
+.lbei-cloud-minus:before {
+	content: "Q";
+}
+.lbei-cloud-noaccess:before {
+	content: "R";
+}
+.lbei-cloud-plus:before {
+	content: "S";
+}
+.lbei-cloud-refresh:before {
+	content: "T";
+}
+.lbei-cloud-remove:before {
+	content: "U";
+}
+.lbei-cloud-search:before {
+	content: "V";
+}
+.lbei-cloud-upload:before {
+	content: "W";
+}
+.lbei-document-check:before {
+	content: "X";
+}
+.lbei-document-cloud:before {
+	content: "Y";
+}
+.lbei-document-download:before {
+	content: "Z";
+}
+.lbei-document-flagged:before {
+	content: "0";
+}
+.lbei-document-graph:before {
+	content: "1";
+}
+.lbei-document-heart:before {
+	content: "2";
+}
+.lbei-document-minus:before {
+	content: "3";
+}
+.lbei-document-next:before {
+	content: "4";
+}
+.lbei-document-noaccess:before {
+	content: "5";
+}
+.lbei-document-note:before {
+	content: "6";
+}
+.lbei-document-pencil:before {
+	content: "7";
+}
+.lbei-document-picture:before {
+	content: "8";
+}
+.lbei-document-plus:before {
+	content: "9";
+}
+.lbei-document-previous:before {
+	content: "!";
+}
+.lbei-document-refresh:before {
+	content: "\"";
+}
+.lbei-document-remove:before {
+	content: "#";
+}
+.lbei-document-search:before {
+	content: "$";
+}
+.lbei-document-star:before {
+	content: "%";
+}
+.lbei-document-upload:before {
+	content: "&";
+}
+.lbei-folder-check:before {
+	content: "'";
+}
+.lbei-folder-cloud:before {
+	content: "(";
+}
+.lbei-folder-document:before {
+	content: ")";
+}
+.lbei-folder-download:before {
+	content: "*";
+}
+.lbei-folder-flagged:before {
+	content: "+";
+}
+.lbei-folder-graph:before {
+	content: ",";
+}
+.lbei-folder-heart:before {
+	content: "-";
+}
+.lbei-folder-minus:before {
+	content: ".";
+}
+.lbei-folder-next:before {
+	content: "/";
+}
+.lbei-folder-noaccess:before {
+	content: ":";
+}
+.lbei-folder-note:before {
+	content: ";";
+}
+.lbei-folder-pencil:before {
+	content: "<";
+}
+.lbei-folder-picture:before {
+	content: "=";
+}
+.lbei-folder-plus:before {
+	content: ">";
+}
+.lbei-folder-previous:before {
+	content: "?";
+}
+.lbei-folder-refresh:before {
+	content: "@";
+}
+.lbei-folder-remove:before {
+	content: "[";
+}
+.lbei-folder-search:before {
+	content: "]";
+}
+.lbei-folder-star:before {
+	content: "^";
+}
+.lbei-folder-upload:before {
+	content: "_";
+}
+.lbei-mail-check:before {
+	content: "`";
+}
+.lbei-mail-cloud:before {
+	content: "{";
+}
+.lbei-mail-document:before {
+	content: "|";
+}
+.lbei-mail-download:before {
+	content: "}";
+}
+.lbei-mail-flagged:before {
+	content: "~";
+}
+.lbei-mail-heart:before {
+	content: "\\";
+}
+.lbei-mail-next:before {
+	content: "\e000";
+}
+.lbei-mail-noaccess:before {
+	content: "\e001";
+}
+.lbei-mail-note:before {
+	content: "\e002";
+}
+.lbei-mail-pencil:before {
+	content: "\e003";
+}
+.lbei-mail-picture:before {
+	content: "\e004";
+}
+.lbei-mail-previous:before {
+	content: "\e005";
+}
+.lbei-mail-refresh:before {
+	content: "\e006";
+}
+.lbei-mail-remove:before {
+	content: "\e007";
+}
+.lbei-mail-search:before {
+	content: "\e008";
+}
+.lbei-mail-star:before {
+	content: "\e009";
+}
+.lbei-mail-upload:before {
+	content: "\e00a";
+}
+.lbei-message-check:before {
+	content: "\e00b";
+}
+.lbei-message-dots:before {
+	content: "\e00c";
+}
+.lbei-message-happy:before {
+	content: "\e00d";
+}
+.lbei-message-heart:before {
+	content: "\e00e";
+}
+.lbei-message-minus:before {
+	content: "\e00f";
+}
+.lbei-message-note:before {
+	content: "\e010";
+}
+.lbei-message-plus:before {
+	content: "\e011";
+}
+.lbei-message-refresh:before {
+	content: "\e012";
+}
+.lbei-message-remove:before {
+	content: "\e013";
+}
+.lbei-message-sad:before {
+	content: "\e014";
+}
+.lbei-smartphone-cloud:before {
+	content: "\e015";
+}
+.lbei-smartphone-heart:before {
+	content: "\e016";
+}
+.lbei-smartphone-noaccess:before {
+	content: "\e017";
+}
+.lbei-smartphone-note:before {
+	content: "\e018";
+}
+.lbei-smartphone-pencil:before {
+	content: "\e019";
+}
+.lbei-smartphone-picture:before {
+	content: "\e01a";
+}
+.lbei-smartphone-refresh:before {
+	content: "\e01b";
+}
+.lbei-smartphone-search:before {
+	content: "\e01c";
+}
+.lbei-tablet-cloud:before {
+	content: "\e01d";
+}
+.lbei-tablet-heart:before {
+	content: "\e01e";
+}
+.lbei-tablet-noaccess:before {
+	content: "\e01f";
+}
+.lbei-tablet-note:before {
+	content: "\e020";
+}
+.lbei-tablet-pencil:before {
+	content: "\e021";
+}
+.lbei-tablet-picture:before {
+	content: "\e022";
+}
+.lbei-tablet-refresh:before {
+	content: "\e023";
+}
+.lbei-tablet-search:before {
+	content: "\e024";
+}
+.lbei-todolist-2:before {
+	content: "\e025";
+}
+.lbei-todolist-check:before {
+	content: "\e026";
+}
+.lbei-todolist-cloud:before {
+	content: "\e027";
+}
+.lbei-todolist-download:before {
+	content: "\e028";
+}
+.lbei-todolist-flagged:before {
+	content: "\e029";
+}
+.lbei-todolist-minus:before {
+	content: "\e02a";
+}
+.lbei-todolist-noaccess:before {
+	content: "\e02b";
+}
+.lbei-todolist-pencil:before {
+	content: "\e02c";
+}
+.lbei-todolist-plus:before {
+	content: "\e02d";
+}
+.lbei-todolist-refresh:before {
+	content: "\e02e";
+}
+.lbei-todolist-remove:before {
+	content: "\e02f";
+}
+.lbei-todolist-search:before {
+	content: "\e030";
+}
+.lbei-todolist-star:before {
+	content: "\e031";
+}
+.lbei-todolist-upload:before {
+	content: "\e032";
+}
+

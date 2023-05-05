@@ -1,0 +1,62 @@
+{
+  "_args": [
+    [
+      "simple-line-icons@2.5.5",
+      "E:\\_OKLER\\Templates\\Porto\\HTML"
+    ]
+  ],
+  "_from": "simple-line-icons@2.5.5",
+  "_id": "simple-line-icons@2.5.5",
+  "_inBundle": false,
+  "_integrity": "sha512-v52iGG/qFZTSD/70yOfA1lYoN6zmjEfDjzFT6U6jNSCsh/aeVjy+8sYyTXWz1w7tLIkN2XeMmG+cLJp/0zYK4Q==",
+  "_location": "/simple-line-icons",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "simple-line-icons@2.5.5",
+    "name": "simple-line-icons",
+    "escapedName": "simple-line-icons",
+    "rawSpec": "2.5.5",
+    "saveSpec": null,
+    "fetchSpec": "2.5.5"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/simple-line-icons/-/simple-line-icons-2.5.5.tgz",
+  "_spec": "2.5.5",
+  "_where": "E:\\_OKLER\\Templates\\Porto\\HTML",
+  "author": {
+    "name": "Sabbir Ahmed"
+  },
+  "bugs": {
+    "url": "https://github.com/thesabbir/simple-line-icons/issues"
+  },
+  "dependencies": {
+    "less": "^3.12.2"
+  },
+  "description": "Simple and elegant line icons.",
+  "homepage": "https://thesabbir.github.io/simple-line-icons",
+  "keywords": [
+    "icon",
+    "simple-icons",
+    "simple-line-icons",
+    "line",
+    "css",
+    "webfont"
+  ],
+  "license": "MIT",
+  "main": "dist/styles/simple-line-icons.css",
+  "name": "simple-line-icons",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thesabbir/simple-line-icons.git"
+  },
+  "scripts": {
+    "build": "node scripts/build",
+    "postbuild": "cp -r dist/ docs/",
+    "test": "node scripts/build"
+  },
+  "version": "2.5.5"
+}

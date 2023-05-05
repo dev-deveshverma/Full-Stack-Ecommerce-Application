@@ -1,0 +1,59 @@
+{
+  "_args": [
+    [
+      "@icon/linea-music@1.0.0-alpha.5",
+      "E:\\_OKLER\\Templates\\Porto\\HTML"
+    ]
+  ],
+  "_from": "@icon/linea-music@1.0.0-alpha.5",
+  "_id": "@icon/linea-music@1.0.0-alpha.5",
+  "_inBundle": false,
+  "_integrity": "sha512-WJjYnwkWuGriBAGRNEocq9pkvGXG25VEToM3+j4Q+8E/hxYBXreux+qaQJUhAY82fXxvTiSTOLLOC9mdSnuwTA==",
+  "_location": "/@icon/linea-music",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@icon/linea-music@1.0.0-alpha.5",
+    "name": "@icon/linea-music",
+    "escapedName": "@icon%2flinea-music",
+    "scope": "@icon",
+    "rawSpec": "1.0.0-alpha.5",
+    "saveSpec": null,
+    "fetchSpec": "1.0.0-alpha.5"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@icon/linea-music/-/linea-music-1.0.0-alpha.5.tgz",
+  "_spec": "1.0.0-alpha.5",
+  "_where": "E:\\_OKLER\\Templates\\Porto\\HTML",
+  "author": {
+    "name": "Dario Ferrando"
+  },
+  "bugs": {
+    "url": "https://github.com/thecreation/standard-icons/issues"
+  },
+  "description": "Linea Iconset a free outline iconset  featuring 730+ Icons.",
+  "gitHead": "03bca77bca8c5dd936a375e9c556ef3e1a8d4074",
+  "homepage": "http://www.linea.io/",
+  "keywords": [
+    "icons",
+    "icon"
+  ],
+  "license": "CC0-1.0",
+  "name": "@icon/linea-music",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thecreation/standard-icons/tree/master/modules/linea-music"
+  },
+  "scripts": {
+    "import": "../../scripts/module/import --module=linea-music",
+    "optimize": "../../scripts/module/optimize",
+    "update": "ncu -u"
+  },
+  "version": "1.0.0-alpha.5"
+}
